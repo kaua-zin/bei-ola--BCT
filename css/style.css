@@ -1,0 +1,203 @@
+/* Estilos Globais */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF6F9;
+    color: #444;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaça os itens igualmente entre os lados */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 15px 20px;
+    background-color: #FF69B4;
+    color: white;
+    border-bottom: 3px solid #FFC0CB;
+}
+
+.header-images1 img,
+.header-images img {
+    max-width: 200px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto;
+    padding: 20px;
+}
+
+.container {
+    text-align: center; /* Centraliza o texto e botão */
+    flex-grow: 1; /* Permite que o container ocupe o espaço restante */
+}
+
+.container .logo {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.container a.cta {
+    background-color: #FFC0CB;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.container a.cta:hover {
+    background-color: #FF1493;
+}
+
+/* Seção de Eventos */
+.roadmap ul {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.roadmap ul img {
+    width: 30%; /* Ajuste o tamanho das imagens conforme necessário */
+    border-radius: 10px;
+}
+
+
+/* Layout das imagens no cabeçalho */
+.header-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 50%;
+}
+
+.header-images img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Seção Hero */
+.hero {
+    background-color: #FFB6C1;
+    text-align: center;
+    color: #333;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero a.cta {
+    background-color: #FF69B4;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.hero img {
+    max-width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+    justify-items: right;
+    
+}
+
+/* Seções de Conteúdo */
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FF69B4;
+    text-align: center;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    color: #444;
+}
+
+section ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+section ul li strong {
+    color: #FF69B4;
+}
+
+/* Seção Comunidade */
+.community ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.community ul img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.community ul li a {
+    text-decoration: none;
+    color: #FF69B4;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.community ul li a:hover {
+    color: #FF1493;
+}
+
+/* Rodapé */
+footer {
+    background-color: #FF69B4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    border-top: 3px solid #FFC0CB;
+}
+
+footer p {
+    margin: 5px 0;
+}
